@@ -272,6 +272,8 @@
           <button class="menu-dot" type="button" aria-label="Go to menu image 12"></button>
         </div>
 
+        <p class="menu-help reveal">Tap any menu image to enlarge. Use swipe or arrow keys to browse.</p>
+
         <div class="menu-layout">
           <article class="info-card reveal">
             <h3>Drinks-led start</h3>
@@ -384,6 +386,16 @@
       <p>Moonlight Premium Lounge</p>
       <p>Restaurant and lounge website for Balasore.</p>
     </footer>
+  </div>
+
+  <div class="menu-lightbox" aria-hidden="true">
+    <button class="menu-lightbox-close" type="button" aria-label="Close enlarged menu image">Close</button>
+    <button class="menu-lightbox-nav menu-lightbox-prev" type="button" aria-label="Previous enlarged menu image">Prev</button>
+    <div class="menu-lightbox-stage">
+      <img class="menu-lightbox-image" src="" alt="">
+      <p class="menu-lightbox-caption"></p>
+    </div>
+    <button class="menu-lightbox-nav menu-lightbox-next" type="button" aria-label="Next enlarged menu image">Next</button>
   </div>
 
   <script src="./script.js"></script>
