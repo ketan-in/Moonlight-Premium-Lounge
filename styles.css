@@ -574,6 +574,54 @@ a {
   object-fit: cover;
 }
 
+.gallery-map-card {
+  display: grid;
+  align-content: end;
+  min-height: 280px;
+  padding: 22px;
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at top right, rgba(198, 95, 43, 0.18), transparent 24%),
+    linear-gradient(160deg, #233830 0%, #14201c 100%);
+  color: #f8f1e4;
+}
+
+.gallery-map-kicker {
+  margin: 0 0 10px;
+  color: #f0b63c;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.gallery-map-card h3 {
+  margin: 0 0 8px;
+  font-family: "DM Serif Display", serif;
+  font-size: 1.9rem;
+  line-height: 1;
+}
+
+.gallery-map-card p {
+  margin: 0 0 16px;
+  color: rgba(248, 241, 228, 0.82);
+  line-height: 1.6;
+}
+
+.gallery-map-card a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: white;
+  font-weight: 700;
+}
+
 .gallery-card figcaption {
   padding: 16px 18px 20px;
   color: var(--muted);
